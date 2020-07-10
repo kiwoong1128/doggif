@@ -83,7 +83,28 @@ background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
   margin-bottom: 30px;
 }
 
-#img {
+#img img{
+  width: 400px;
+}
+
+
+#button {
+  margin-top: 25px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 25px;
+  border: none;
+  transition: all .07s ease;
+
+
+  &:hover {
+    background-color: black;
+    color: #80ffdf;
+  }
+  &:focus {
+    outline:none;
+
+  }
 
 }
 
@@ -91,7 +112,6 @@ background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
   margin-top: 20px;
 }
 .bg-bubbles{
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
